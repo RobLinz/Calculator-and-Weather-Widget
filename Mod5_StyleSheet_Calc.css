@@ -1,0 +1,23 @@
+.calculator {
+  width: 200px;
+  border: 1px solid red;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(200,250,150);
+}
+
+.label{
+  text-align: center;
+}
+.radios{
+  text-align: left;
+}
+
+h1 {
+  color: orange;
+  text-align: left;
+}
+
+;
+

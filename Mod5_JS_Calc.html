@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<head>
+<title> Calculator Form </title>
+<link rel="stylesheet" type="text/css" href="Mod5_StyleSheet_Calc.css">
+</head>
+
+<body>
+
+  <h1> Calculator </h1>
+
+  <div class="calculator" id="calculator">
+    <label>First Number:</label>
+      <input type="number" step="any" id="num1" />
+      <br>
+      <br>
+      
+      
+      <div class="label"> <label> Operation performed: </label></div>
+      <div class ="radios" id="radios">
+      <ul>
+        <li>
+          <input type="radio" name="math" value="+" id="+" required/>
+          <label for="+"> +</label>
+        </li>
+        <li>
+          <input type="radio" name="math" value="-" id="-" />
+          <label for="-"> -</label>
+        </li>
+        <li>
+          <input type="radio" name="math" value="*" id="*" />
+          <label for="*"> x</label>
+        </li>
+        <li>
+          <input type="radio" name="math" value="/" id="/" />
+          <label for="/"> /</label>
+        </li>
+      </ul>
+      </div>
+      
+      <label> Second Number: </label>
+      <input type="number" step="any" id="num2" />
+      <br>
+      <br>
+
+      <label> Answer: </label>
+      <p id="answer"> </p>
+      <script type="text/javascript" src="Mod5_JS_Calc.js"></script>
+
+  </div>
+</body>
+
